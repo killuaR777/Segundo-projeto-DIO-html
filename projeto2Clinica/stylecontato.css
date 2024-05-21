@@ -1,0 +1,101 @@
+body{
+    background-color:rgb(246, 238, 218);
+}
+
+.cabecalho{ 
+    display: flex;
+    justify-content: center;
+    
+}
+
+img{
+    width: 50px;
+}
+
+
+.menu a{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 120px;
+    color: rgb(1, 147, 147);
+}
+.conteudo img{
+    width: 261px;
+    margin-left: 40px;
+}
+
+.conteudo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 344px;
+    margin-top: -300px;
+    color: rgb(1, 147, 147);
+}
+
+a.botao_wtzp{
+    background: linear-gradient(to right,#05c75c ,#05e735);
+    background-color: #05c75c;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 14px 15px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 350px;
+   }
+   a.botao_wtzp:hover{
+    background: linear-gradient(to right,#51cd77 ,#51ea5f);
+    background-color: #51cd77;
+   }
+   a.botao_wtzp:active{
+    transform: scale(0.95);
+   }
+
+   a.botao_instagram{
+    background: linear-gradient(to right,#8305c7 ,#e705b7);
+    background-color: #8305c7;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 14px 15px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    display: inline-block;
+   }
+   a.botao_instagram:hover{
+    background: linear-gradient(to right,#9451cd ,#ea51bf);
+    background-color: #9451cd;
+   }
+   a.botao_instagram:active{
+    transform: scale(0.95);
+   }
+
+   a.botao_facebook{
+    background: linear-gradient(to right,#27307f ,#0507e7);
+    background-color: #27307f;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 14px 15px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    display: inline-block;
+   }
+   a.botao_facebook:hover{
+    background: linear-gradient(to right,#595d91 ,#5151ea);
+    background-color: #595d91;
+   }
+   a.botao_facebook:active{
+    transform: scale(0.95);
+   }

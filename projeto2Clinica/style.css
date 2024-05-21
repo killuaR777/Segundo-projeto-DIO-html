@@ -1,0 +1,122 @@
+body{
+    background-color:rgb(246, 238, 218);
+}
+
+.cabecalho{ 
+    display: flex;
+    justify-content: center;
+    
+}
+
+img{
+    width: 50px;
+}
+
+
+.menu a{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 120px;
+    color: rgb(1, 147, 147);
+}
+.conteudo img{
+    width: 261px;
+    margin-left: 40px;
+}
+
+.conteudo .texto{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    margin-left: 250px;
+    margin-top: -370px;
+    border: solid 1px;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: rgb(1, 147, 147);
+    background-color: rgb(210, 226, 227);
+    color: rgb(1, 147, 147);
+}
+
+.conteudo .texto2{
+    font-family: arial;
+    margin-left: 500px;
+    margin-top: -351px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: rgb(1, 147, 147);
+    background-color: rgb(210, 226, 227);
+    color: rgb(1, 147, 147);
+}
+
+.conteudo li{
+    display: block;
+    padding: 1px;
+    height: 1px;
+    text-align: left;
+    margin-left: -30px;
+    margin-top: -15px;
+   line-height: 8px;
+}
+
+.conteudo table{
+    -webkit-box-shadow: 14px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 14px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 400px;
+    margin-left: 320px;
+    margin-top: -300px;
+}
+.conteudo thead{
+    background-color: rgb(1, 147, 147);
+    color: aliceblue;
+
+}
+
+.conteudo tbody tr:nth-child(even) td{
+    background-color: bisque;
+}
+
+.conteudo tbody tr:hover td{
+    background-color: rgb(77, 109, 96);
+    cursor: pointer;
+}
+
+.conteudo caption{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: rgb(1, 147, 147);
+    -webkit-box-shadow: 14px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 14px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.conteudo a{
+    text-decoration: none;
+    color: white;
+}
+
+.titulo_de_contato{
+
+}
+
+.redes_sociais{
+    display: inline-block;
+    max-width: 10px;
+    max-height: 10px;
+}
